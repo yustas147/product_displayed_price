@@ -7,7 +7,7 @@
             <field name="inherit_id" ref="product.product_normal_form_view"/>
             <field name="type">form</field>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='barcode']" position="after">
+                <xpath expr="//field[@name='lst_price']" position="after">
                     <field name="displayed_price"/>
                 </xpath>
             </field>
