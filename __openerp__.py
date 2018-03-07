@@ -13,7 +13,7 @@
 
     # always loaded
     'data': [
-        'views/product_product.xml',
+        'views/product_template.xml',
             ],
     'installable': True,
 }
